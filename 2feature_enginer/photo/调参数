@@ -1,0 +1,463 @@
+0.598813 onehot symbol
+0.597705 no onehot
+0.5903 symbol-w
+0.588513 no symbol
+0.599512 num_leaves 35 -8
+
+5-folds:Full AUC score 0.604532
+
+add 
+rain_data['20181_mean_cnt_weight'] 
+train_data['201712_mean_cnt_weight'] 
+train_data['201711_mean_cnt_weight'] 
+train_data['20181_201712_mean'] 
+train_data['20181_201711_mean'] 
+train_data['201712_201711_mean']
+Full AUC score 0.598675
+
+add 
+train_data['symbol_mean_cnum_weight']
+Full AUC score 0.598838
+
+delete
+train_data['20181_201712_mean'] 
+train_data['20181_201711_mean'] 
+train_data['201712_201711_mean']
+Full AUC score 0.601420
+
+delte
+all_cross_cnum_weight
+Full AUC score 0.601459
+
+delete 
+all_weight
+all_cnum
+Full AUC score 0.600740
+
+delet
+rain_data['20181_mean_cnt_weight'] 
+train_data['201712_mean_cnt_weight'] 
+train_data['201711_mean_cnt_weight'] 
+train_data['20181_201712_mean'] 
+train_data['20181_201711_mean'] 
+train_data['201712_201711_mean']
+Full AUC score 0.605823
+
+delte
+去掉symbol的onehot表../feature/dat_symbol_feature.txt
+full auc socre 0.6052
+修改
+dat_symbol_feature.txt为dat_symbol
+Full AUC score 0.606112
+
+加上symbol的onehot表
+Full AUC score 0.606714
+
+xiugai
+train_valid_test_dat_edge_symbol.txt为train_valid_test_dat_edge_symbol_mean.txt
+Full AUC score 0.606714
+
+add
+'feature_fraction': 0.125681745820782,
+'bagging_freq': 5,
+'min_split_gain': 0.0970905919552776,
+ 'min_child_weight': 9.42012323936088,
+Full AUC score 0.607298
+
+xiugai
+num_leaves wei 100
+Full AUC score 0.608105
+
+加入 id的特征向量
+线下0.595 线上增加0.03
+
+加聚类
+Full AUC score 0.580122
+
+只用聚类特征，不用向量：
+Full AUC score 0.608898
+聚类个数100:
+Full AUC score 0.608683
+Full AUC score 0.607645
+
+
+调参：
+   'learning_rate': 0.01,
+     'max_depth': 8,
+     'num_leaves': 40,
+     'feature_fraction': 0.125681745820782,
+     'bagging_freq': 5,
+     'min_split_gain': 0.0970905919552776,
+     'min_child_weight': 9.42012323936088,
+     'reg_alpha': 4,
+     'reg_lambda': 4,
+    Full AUC score 0.606656
+ ///////////////
+      'learning_rate': 0.01,
+     'max_depth': 8,
+     'num_leaves': 40,
+     'feature_fraction': 0.125681745820782,
+     'bagging_freq': 5,
+     'min_split_gain': 0.0970905919552776,
+     'min_child_weight': 9.42012323936088,
+     'reg_alpha': 4,
+     'reg_lambda': 4,
+     'is_unbalance':True
+     Full AUC score 0.606452
+
+          'learning_rate': 0.01,
+     'max_depth': 8,
+     'num_leaves': 40,
+     'feature_fraction': 0.125681745820782,
+     'bagging_freq': 5,
+     'min_split_gain': 0.0970905919552776,
+     'min_child_weight': 9.42012323936088,
+     'reg_alpha': 1,
+     'reg_lambda': 1,
+     Full AUC score 0.607448
+     /////////////////////////
+     'learning_rate': 0.01,
+     'max_depth': 8,
+     'num_leaves': 40,
+     'feature_fraction': 0.125681745820782,
+     'bagging_freq': 5,
+     'min_split_gain': 0.0970905919552776,
+     'min_child_weight': 9.42012323936088,
+     'reg_alpha': 4,
+     'reg_lambda': 4,
+     Full AUC score 0.607857
+          'reg_alpha': 8,
+          'reg_lambda': 8,
+     Full AUC score 0.604658
+
+          'learning_rate': 0.01,
+     'max_depth': 8,
+     'num_leaves': 40,
+     'feature_fraction': 0.125681745820782,
+     'bagging_freq': 5,
+     # 'min_split_gain': 0.0970905919552776,
+     'min_child_weight': 9.42012323936088,
+     'reg_alpha': 4,
+     'reg_lambda':4 ,
+     Full AUC score 0.608005
+     ///////////////////
+          'learning_rate': 0.01,
+     'max_depth': 8,
+     'num_leaves': 40,
+     'feature_fraction': 0.125681745820782,
+     'bagging_freq': 5,
+     # 'min_split_gain': 0.0970905919552776,
+     'min_child_weight': 9.42012323936088,
+     'reg_alpha': 4,
+     'reg_lambda':4 ,
+
+     Full AUC score 0.597591
+
+     ////////////////////
+          'learning_rate': 0.01,
+     'max_depth': 8,
+     'num_leaves': 40,
+     'feature_fraction': 0.125681745820782,
+     'bagging_freq': 5,
+     # 'min_split_gain': 0.0970905919552776,
+     'min_child_weight': 5,
+     'reg_alpha': 4,
+     'reg_lambda':4 ,
+     Full AUC score 0.607951
+     //////////////////////
+          'learning_rate': 0.01,
+     'max_depth': 8,
+     'num_leaves': 40,
+     'feature_fraction': 0.125681745820782,
+     'bagging_freq': 5,
+     # 'min_split_gain': 0.0970905919552776,
+     'min_child_weight': 12,
+     'reg_alpha': 4,
+     'reg_lambda':4 ,
+  Full AUC score 0.608159
+  ///////////////////////
+           'learning_rate': 0.01,
+     'max_depth': 8,
+     'num_leaves': 40,
+     # 'feature_fraction': 0.125681745820782,
+     'bagging_freq': 5,
+     # 'min_split_gain': 0.0970905919552776,
+     'min_child_weight': 12,
+     'reg_alpha': 4,
+     'reg_lambda':4 ,
+
+
+     ///////////////////////
+          'learning_rate': 0.01,
+     'max_depth': 8,
+     'num_leaves': 40,
+     'feature_fraction': 0.2,
+     'bagging_freq': 5,
+     # 'min_split_gain': 0.0970905919552776,
+     'min_child_weight': 12,
+     'reg_alpha': 4,
+     'reg_lambda':4 ,
+
+     Full AUC score 0.608431
+     /////////////////////////
+          'learning_rate': 0.01,
+     'max_depth': 8,
+     'num_leaves': 40,
+     'feature_fraction': 0.4,
+     'bagging_freq': 5,
+     # 'min_split_gain': 0.0970905919552776,
+     'min_child_weight': 12,
+     'reg_alpha': 4,
+     'reg_lambda':4 ,
+     Full AUC score 0.604679
+     ///////////////
+          'learning_rate': 0.01,
+     'max_depth': 8,
+     'num_leaves': 40,
+     'feature_fraction': 0.25,
+     'bagging_freq': 5,
+     # 'min_split_gain': 0.0970905919552776,
+     'min_child_weight': 12,
+     'reg_alpha': 4,
+     'reg_lambda':4 ,
+     Full AUC score 0.602204
+
+///////////////////
+     'max_depth': 8,
+     'num_leaves': 40,
+     'feature_fraction': 0.2,
+     'bagging_freq': 5,
+     # 'min_split_gain': 0.0970905919552776,
+     'min_child_weight': 12,
+     'reg_alpha': 4,
+     'reg_lambda':4 ,
+     Full AUC score 0.602204
+     Full AUC score 0.608431
+     /////////////////
+     Full AUC score 0.607719
+     ////////////////
+         'learning_rate': 0.01,
+     'max_depth': 10,
+     'num_leaves': 40,
+     'feature_fraction': 0.2,
+     'bagging_freq': 5,
+     # 'min_split_gain': 0.0970905919552776,
+     'min_child_weight': 12,
+     'reg_alpha': 4,
+     'reg_lambda':4 ,
+     Full AUC score 0.608541
+     //////////////
+      'max_depth': 12,
+     Full AUC score 0.607243
+     //////////////
+     f_fract:0.8
+     0.6445
+
+
+     xgb
+         {
+        'booster': 'gbtree',
+        'objective': 'binary:logistic',
+        'eta': 0.1,
+        # 'max_depth': 10,
+        'subsample': 0.5,
+        # 'min_child_weight': 5,
+        'colsample_bytree': 0.8,
+        # 'scale_pos_weight': 0.1,
+        'eval_metric': 'auc',
+        'alpha':1,
+        'lambda': 5,
+        'nthread':4
+    }
+    线下Full AUC score 0.603237 
+    线上0.6174
+
+    lgb
+         'learning_rate': 0.1,
+     'max_depth': 10,
+     'num_leaves': 40,
+     'feature_fraction': 0.2,
+     'bagging_freq': 3,
+     # 'min_split_gain': 0.2,
+     'min_child_weight': 12,
+     'reg_alpha': 4,
+     'reg_lambda':4 ,
+     线下Full AUC score 0.606233
+     线上0.6096
+
+     融合：
+
+Full AUC score 0.606233
+     Full AUC score 0.603237
+Full AUC score final 0.608567
+线上：0.6153
+
+修正了聚类全数据后：
+Full AUC score 0.610159
+Full AUC score 0.610449
+Full AUC score final 0.613978
+
+添加app的数据后
+Full AUC score 0.611966
+Full AUC score 0.603124
+Full AUC score final 0.613670
+线上0.6179
+
+kmeans 迭代200次，优化clusting——app：
+Full AUC score 0.614330
+Full AUC score 0.613595
+Full AUC score final 0.619519           good
+kmeans 迭代300次，优化clusting_app
+Full AUC score 0.611324
+Full AUC score 0.608479
+Full AUC score final 0.614438
+
+als 迭代10次，keamn退回到200:
+Full AUC score 0.615678
+Full AUC score 0.611399
+Full AUC score final 0.617486
+
+
+kemans200 优化clusting edge：
+Full AUC score 0.610894
+Full AUC score 0.609793
+Full AUC score final 0.614134
+
+
+1.app 个数
+2.聚类个数调整
+3.模型融合
+
+
+
+
+0.6058
+加id后
+0.607518
+加app30
+Full AUC score 0.608505
+加app count
+0.609146
+加edge_toid_count
+0.6064
+
+修正app count ，之前是sum
+Full AUC score 0.607870
+
+app sum count 都加上 不佳edge count
+0.60935
+
+加入各个月的edgecount
+Full AUC score 0.607980
+
+all edge count
+Full AUC score 0.608384
+
+
+
+
+LGB:
+提交1:
+    {'boosting_type': 'gbdt',
+     'objective': 'binary',
+     'metric': {'auc'},
+     'learning_rate': 0.1,
+     'max_depth': 10,
+     'num_leaves': 40,
+     'feature_fraction': 0.2,
+     'bagging_freq': 3,
+     # 'min_split_gain': 0.2,
+     'min_child_weight': 12,
+     'reg_alpha': 4,
+     'reg_lambda':4 ,
+     # 'is_unbalance':True
+     # 'verbose': 1},
+     },
+
+ 提交2：
+     {'boosting_type': 'gbdt',
+     'objective': 'binary',
+     'metric': {'auc'},
+     'learning_rate': 0.1,
+     'max_depth': 10,
+     'num_leaves': 40,
+     'feature_fraction': 0.8,
+     'bagging_freq': 3,
+     # 'min_split_gain': 0.2,
+     'min_child_weight': 12,
+     'reg_alpha': 4,
+     'reg_lambda':4 ,
+     # 'is_unbalance':True
+     # 'verbose': 1},
+     },
+     605474
+ 提交3:
+     {'boosting_type': 'gbdt',
+     'objective': 'binary',
+     'metric': {'auc'},
+     'learning_rate': 0.1,
+     'max_depth': 10,
+     'num_leaves': 40,
+     'feature_fraction': 0.3,
+     'bagging_freq': 3,
+     # 'min_split_gain': 0.2,
+     'min_child_weight': 12,
+     'reg_alpha': 4,
+     'reg_lambda':4 ,
+     # 'is_unbalance':True
+     # 'verbose': 1},
+     },
+     train_data['20181_mean_cnt_weight'] = train_data['20181_weight'].astype('float')/train_data['20181_cnum']
+train_data['201712_mean_cnt_weight'] = train_data['201712_weight'].astype('float')/train_data['201712_cnum']
+train_data['201711_mean_cnt_weight'] = train_data['201711_weight'].astype('float')/train_data['201711_cnum']
+Full AUC score 0.600478
+提交4:
+    {
+        'booster': 'gbtree',
+        'objective': 'binary:logistic',
+        'eta': 0.1,
+        # 'max_depth': 10,
+        'subsample': 0.5,
+        # 'min_child_weight': 5,
+        'colsample_bytree': 0.8,
+        # 'scale_pos_weight': 0.1,
+        'eval_metric': 'auc',
+        'alpha':1,
+        'lambda': 5,
+        'nthread':4
+    }
+    605969
+ 提交5:
+     {
+        'booster': 'gbtree',
+        'objective': 'binary:logistic',
+        'eta': 0.1,
+        # 'max_depth': 10,
+        'subsample': 0.5,
+        # 'min_child_weight': 5,
+        'colsample_bytree': 0.8,
+        # 'scale_pos_weight': 0.1,
+        'eval_metric': 'auc',
+        'alpha':1,
+        'lambda': 5,
+        'nthread':4
+    }
+ # train_data['20181_mean_cnt_weight'] = train_data['20181_weight'].astype('float')/train_data['20181_cnum']
+# train_data['201712_mean_cnt_weight'] = train_data['201712_weight'].astype('float')/train_data['201712_cnum']
+# train_data['201711_mean_cnt_weight'] = train_data['201711_weight'].astype('float')/train_data['201711_cnum']
+Full AUC score 0.596604
+提交6:
+        'booster': 'gbtree',
+        'objective': 'binary:logistic',
+        'eta': 0.1,
+        # 'max_depth': 10,
+        'subsample': 0.5,
+        # 'min_child_weight': 5,
+        'colsample_bytree': 0.6,
+        # 'scale_pos_weight': 0.1,
+        'eval_metric': 'auc',
+        'alpha':2,
+        'lambda': 5,
+        'nthread':4
+    }
+Full AUC score 0.596604

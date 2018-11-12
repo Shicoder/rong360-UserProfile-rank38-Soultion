@@ -1,5 +1,6 @@
 # coding=utf-8
 import pandas as pd
+#测试
 # data = pd.read_csv("../feature/train_valid_test_dat_app.csv")
 # print(data['id'].count())
 # data = data.dropna()

@@ -2,50 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="67a74821-4bf2-4716-b119-61c7eae3cde0" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/rong360-UserProfile-rank39-Soultion.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2feature_enginer/feature/cf_clustering_30.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2feature_enginer/feature/cf_clustering_app30.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2feature_enginer/feature/train_vaild_test_app.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2feature_enginer/feature/train_valid_test_dat_edge_info_feature.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2feature_enginer/feature/train_valid_test_dat_edge_symbol_mean.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2feature_enginer/open_data/README.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2feature_enginer/open_data/class1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2feature_enginer/open_data/class2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2feature_enginer/open_data/dat_edge/test_dat_edge.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2feature_enginer/open_data/dat_edge/train_dat_edge.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2feature_enginer/open_data/dat_edge/valid_dat_edge.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2feature_enginer/open_data/res2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2feature_enginer/open_data/sample_train.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2feature_enginer/open_data/test_id.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2feature_enginer/open_data/train_symbol_edge.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2feature_enginer/open_data/valid_id.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2feature_enginer/open_data/valid_symbol_edge.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2feature_enginer/photo/lgbm_importances-01.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2feature_enginer/photo/lgbm_importances-01.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2feature_enginer/photo/roc_curve-01.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2feature_enginer/photo/调参数" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2feature_enginer/result/sub_final.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2feature_enginer/result/sub_final.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2feature_enginer/result/submission_5x-LGB0609101_seed_1024.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2feature_enginer/result/submission_5x-XGB0607207_seed_1024.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2feature_enginer/src/EDA.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2feature_enginer/src/app_2_cf.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2feature_enginer/src/app_num.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2feature_enginer/src/cf_edge.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2feature_enginer/src/cf_edge_als.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2feature_enginer/src/class1_count.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2feature_enginer/src/combine.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2feature_enginer/src/demo1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2feature_enginer/src/edge_feature.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2feature_enginer/src/feature1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2feature_enginer/src/feature_enginer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2feature_enginer/src/generate_class_data.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2feature_enginer/src/generate_dat_edge_feature.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2feature_enginer/src/symbol_feautre.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -54,8 +12,18 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/README.md" />
+      </list>
+    </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
@@ -78,7 +46,17 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="rong360-UserProfile-rank39-Soultion" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rong360-UserProfile-rank39-Soultion" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="Scope" />
     </panes>
   </component>
@@ -120,30 +98,30 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="136" y="23" width="1304" height="832" extended-state="0" />
+    <frame x="50" y="23" width="1304" height="832" extended-state="0" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Python Console" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.3292517" />
-      <window_info anchor="right" id="Remote Host" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24960381" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="SciView" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Python Console" order="7" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.3292517" />
+      <window_info anchor="right" id="Remote Host" order="3" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25356576" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" id="SciView" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -151,6 +129,18 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor>
+            <caret column="28" selection-start-column="28" selection-end-column="28" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
   </component>
   <component name="masterDetails">
     <states>
